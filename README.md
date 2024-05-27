@@ -88,7 +88,7 @@ npm install uniapp-async-pkg-inject -D
 ```
 2. 自定义一个`webpack`插件：
 ```js
-const { rewrite_dist_app_json, inject_empty_wrapper, traverse_all_components_json, traverse_some_components_json } = require('../build/inject_async_pkg_mall_wasm/index');
+const { rewrite_dist_app_json, inject_empty_wrapper, traverse_all_components_json, traverse_some_components_json } = require('uniapp-async-pkg-inject/index');
 
 class AutoInjectFuviewPackageDev {
     constructor() {
