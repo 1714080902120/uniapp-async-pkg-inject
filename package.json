@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preview": "wasm-pack build -t nodejs --release --out-dir C:/商城项目/uniwxmallapp/scripts/build/inject_async_pkg_mall_wasm --out-name index",
+    "preview": "wasm-pack build -t nodejs --release --out-dir dist --out-name index",
     "build": "wasm-pack build -t nodejs --release --out-dir dist --out-name index"
   },
   "keywords": [
