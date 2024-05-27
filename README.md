@@ -82,7 +82,10 @@ import xx from '@/asyncComp/xx/xx.vue';
 4. 完了！
 ----------------------
 ## 如何使用
-1. 由于没有发布npm包，所以我们需要手动将`dist`文件夹的内容`copy`到你的项目中，然后引用`xxx/index`
+1. npm 引入 https://www.npmjs.com/package/uniapp-async-pkg-inject
+```bash
+npm install uniapp-async-pkg-inject -D
+```
 2. 自定义一个`webpack`插件：
 ```js
 const { rewrite_dist_app_json, inject_empty_wrapper, traverse_all_components_json, traverse_some_components_json } = require('../build/inject_async_pkg_mall_wasm/index');
