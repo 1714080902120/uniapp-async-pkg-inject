@@ -1,0 +1,18 @@
+{
+  "name": "rust_uniapp_async_pkg_inject",
+  "version": "1.0.0",
+  "description": "async pkg inject to already uniapp bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "wasm-pack build -t nodejs --release --out-dir C:/商城项目/uniwxmallapp/scripts/build/inject_async_pkg_mall_wasm --out-name index",
+    "build": "wasm-pack build -t nodejs --release --out-dir dist --out-name index"
+  },
+  "keywords": [
+    "miniprogram",
+    "async",
+    "pkg"
+  ],
+  "author": "huaidandan",
+  "license": "ISC"
+}
